@@ -1,0 +1,21 @@
+# 실행 파일
+*.exe
+*.out
+
+# IDE 설정
+.vscode/
+.vs/
+
+# C/C++ 임시 파일
+*.o
+*.obj
+*.pdb
+
+# 기타 임시 파일
+*.log
+*.tmp
+temp/
+
+# 운영체제 파일
+.DS_Store
+Thumbs.db
