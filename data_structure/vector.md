@@ -52,7 +52,7 @@ void vectorExample() {
         cout << v[i] << " ";
     }
 
-    // 6. 2차원 벡터 선언 (사용자 질문 관련)
+    // 6. 2차원 벡터 선언 
     // n행 k열의 2차원 배열을 0으로 초기화
     int n = 3, k = 4;
     vector<vector<int>> matrix(n, vector<int>(k, 0));
