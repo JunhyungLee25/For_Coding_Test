@@ -2,7 +2,6 @@
 using namespace std;
 
 int N,M,result;
-bool flag;
 int dy[4] = {-1,0,1,0};
 int dx[4] = {0,1,0,-1};
 
@@ -53,7 +52,7 @@ int find(int cnt){
     for(int i=0; i<N; i++){
         for(int j=0; j<M; j++){
             if(map[i][j]!=0 && visited[i][j]==0){
-                visited[i][j]=0;
+                visited[i][j]=1;
                 DFS(i,j);
                 cnt++;
             }
